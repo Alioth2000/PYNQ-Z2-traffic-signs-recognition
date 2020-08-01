@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-104] State 30 has incomplete outgoing transitions." projectName="pool_core" solutionName="solution1" date="2018-08-23T22:15:59.020+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xD;&#xA;&#x9;'mul' operation ('r.V', pool_core/pool_core.cpp:45) (3.36 ns)&#xD;&#xA;&#x9;'add' operation ('r.V', pool_core/pool_core.cpp:45) (3.02 ns)&#xD;&#xA;&#x9;'add' operation ('r.V', pool_core/pool_core.cpp:45) (2.21 ns)&#xD;&#xA;&#x9;'add' operation ('feature_in2_sum', pool_core/pool_core.cpp:45) (2.21 ns)" projectName="pool_core" solutionName="solution1" date="2018-08-23T22:15:59.020+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (10.8ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns)." projectName="pool_core" solutionName="solution1" date="2018-08-23T22:15:59.020+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
