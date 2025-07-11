@@ -1,6 +1,6 @@
 # Traffic Signs Recognition Based on PYNQ-Z2
 ## 在PYNQ开发板上搭建卷积神经网络实现交通标志识别  
-本项目为2020年新工科联盟-Xilinx暑期学校（Summer School）项目  
+2020年新工科联盟-Xilinx暑期学校（Summer School）项目。
   
 ### 项目简介   
 项目主要实现方式为在ZYNQ的PL端部署了基于HLS开发的卷积加速器和池化加速器，再在PS端利用Python编程实现对加速器的调用，完成交通标志的识别。模型在Tensorflow下采用德国交通标志数据集（GTSRB）进行训练，最终精度达到97%。
@@ -14,8 +14,8 @@
 * Vivado版本： 2018.3
 * Vivado HLS版本： 2018.3
 * TensorFlow版本； 1.14
-* 训练环境： macOS 10.15.6
+
 ### 性能参数
 * 识别种类： 43种
-* 识别精度： 97% （在GTSRB下）
-* 识别速度： 0.5s左右 （速度异常，还需改进）
+* 识别精度： 97%
+* 识别速度： 2 FPS
